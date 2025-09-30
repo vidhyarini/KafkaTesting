@@ -79,6 +79,13 @@ Open a new cmd window by typing "cmd" in C:\Kafka folder path and type the below
 
 A topic is created
 
+
+## Check created topic
+
+```
+.\bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9092
+```
+
 ### Run Kafka Producer
 In the same window, run the producer by typing the command below and press enter
 
